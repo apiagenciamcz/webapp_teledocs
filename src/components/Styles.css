@@ -1,0 +1,191 @@
+html{
+  background-color: #eaebed !important;
+}
+.bg_app{
+    height:100vh;
+    background-color: #eaebed;
+}
+.container {
+    width: 90% !important;
+}
+.bg_content{
+    margin-top: 50px;
+    background-color: #ffffff;
+    padding: 25px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+/* Home */
+
+.cardlayout, .title_home{
+  padding: 20px !important;
+}
+
+.body_home{
+  margin-top: 50px;
+}
+
+.money{
+  color:#b9001f;
+}
+
+.card-body{
+  font-size: 0.82em;
+}
+
+@media (max-width: 768px){
+
+  .card_item{
+      margin-bottom: 30px;
+  }
+
+}
+
+/* Consultas */
+
+.media_consulta{
+  font-size:0.82em;
+  border: 1px solid rgba(0,0,0,.125);
+}
+.bg_app{
+  height:100vh;
+  background-color: #eaebed;
+  
+}
+
+.bg_content{
+  margin-top: 25px;
+  margin-bottom: 50px;
+  background-color: #ffffff;
+  padding: 25px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card{
+  margin-bottom: 25px !important;
+}
+
+.card_home{
+  padding: 10px;
+  font-size: 0.86em;
+}
+.cardimg_home{
+  width: 90%;
+  height: 90%;
+  padding: 10px;
+}
+.body_consultas{
+  margin-top: 25px;
+}
+.card_consultas{
+  margin-bottom: 20px;
+}
+
+.btn_etapas{
+  margin: 0 auto !important;
+}
+
+@media (max-width: 768px){
+
+  .card_consultas{
+      padding: 10px;
+  }
+
+}
+
+.form {
+  margin: 0 auto;
+  padding: 100px 30px 0;
+
+  @media (min-width: 800px) {
+    max-width: 60%;
+  }
+}
+
+.custom-select{
+  margin-top:-20px;
+}
+.badge1{
+  margin-top: 15px;
+}
+.badge_time{
+  margin-top: 30px;
+  margin-right: 25px;
+  margin-left: 20px;
+  font-size: 1em !important;
+}
+.input-range {
+  margin-bottom: 160px;
+}
+
+#output{
+  margin-top:-20px !important;
+}
+
+/* NavBar */
+
+.navbar{
+    background-color: #fff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.navbar-brand{
+    color: #343a40 !important;
+}
+.navbar a{
+    color: #343a40 !important;
+}
+.navbar-dark .navbar-toggler{
+    background-color: #343a40 !important;
+}
+
+.txt_navbar{
+    font-size: 0.76em;
+    font-weight: 500;
+    color: antiquewhite;
+}
+
+.sc-htpNat  > input[type=checkbox]{
+  display: none !important;
+}
+
+.tr-checked{
+  background-color: #282c34 !important;
+  color: #ffffff;
+}
+/* .sc-bwzfXH > input[type=checkbox]{
+  display: none !important;
+} */
+
+
+/* Meios de Pagamento */
+
+.btn_pag{
+    margin-bottom: 25px !important;
+}
+
+/* Visitas */
+
+.newselect{
+  border:none !important;
+  padding: 5px;
+  overflow-y: auto !important;
+}
+.newselect option{
+  padding: 10px !important;
+}
+.item_none{
+  background-color: #e9ecef !important;
+  border-radius: .25rem !important;
+}
+.selectpicker:focus{
+  border-color: none !important;
+}
+
+.doctor_stars{
+  margin-top:20px;
+}
+.card-title_doctor_stars{
+  margin-top: 20px;
+  margin-bottom: -10px;
+}

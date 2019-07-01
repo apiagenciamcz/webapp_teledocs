@@ -1,0 +1,88 @@
+.container-fluid{
+  background-color: #ffffff;
+  height: 100vh;
+}
+.form_login{
+    display: -ms-flexbox;
+    display: -webkit-box;
+    display: flex;
+    -ms-flex-align: center;
+    -ms-flex-pack: center;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  
+  .form-signin-login {
+    width: 100%;
+    max-width: 330px;
+    padding: 15px;
+    margin: 0 auto;
+  }
+  .form-signin-login .checkbox {
+    font-weight: 400;
+  }
+  .form-signin-login .form-control {
+    position: relative;
+    box-sizing: border-box;
+    height: auto;
+    font-size: 16px;
+  }
+  .form-signin-login .form-control:focus {
+    z-index: 2;
+  }
+  .form-signin-login input[type="email"] {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+  .form-signin-login input[type="password"] {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+  }
+  
+  .form-signin-login img{
+     margin-left: 40%;
+  }
+
+  .btn_login{
+    margin-bottom: 10px;
+  }
+  .btn_facebook{
+    border-radius: 3px; 
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 1px 2px; 
+    color: rgb(255, 255, 255); 
+    cursor: pointer; 
+    margin: 0px !important; 
+    overflow: hidden; 
+    padding: 0px 10px; 
+    user-select: none; 
+    height: 40px !important; 
+    background: rgb(59, 89, 152);
+    text-align: center !important;
+  }
+  .btn_facebook > div > div{
+    text-align: center !important;
+  }
+  
+  .txtface{
+    font-size: 1.2em !important;
+    text-align: center;
+  }
+  
+  .txt_cadastro{
+      font-size: 0.76em;
+  }
+
+  span a{
+    color: #282c34 !important;
+  }
+
+  .logow{
+    width: 80px;
+    margin-bottom: 25px;
+  }
